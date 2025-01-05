@@ -5,7 +5,6 @@ if [ $user1 -ne 0 ]
 then 
 echo "you must have sudo access to execute this command"
 fi
-
 dnf install mysql -y
 
 
