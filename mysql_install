@@ -26,10 +26,10 @@ dnf install git -y
 
 if [ $? -ne 0 ]
 then 
-   echo " Git installing is ...Failuer"
+   echo "Git installing is ...Failuer"
    
 else 
-   echo " Git instaling is ...Success"
+   echo "Git instaling is ...Success"
 fi
 
 
