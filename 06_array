@@ -1,8 +1,8 @@
 #!/bin/bash
 
 MOVIES=("puri" "sukumar" "Rajamouli")
-echo "my first Faviourite director is ${MOVIES[$0]}"
-echo "my Second Faviourite director is ${MOVIES[$1]}"
-echo "my Third Faviourite director is ${MOVIES[$2]}"
+echo "my first Faviourite director is : $MOVIES[0]"
+echo "my Second Faviourite director is : $MOVIES[1]"
+echo "my Third Faviourite director is : $MOVIES[2]"
 
 echo "what all are Directors we have $MOVIES"
