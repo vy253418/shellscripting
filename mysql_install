@@ -23,7 +23,7 @@ then
    
 else 
    echo " Git instaling is ...Success"
-   fi
+fi
 
 
  
