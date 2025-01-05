@@ -12,7 +12,9 @@ then
    echo " mysql installing is ...Failuer"
    exit 1
 else 
-   echo " mysql instaling is ...Success"   
+   echo " mysql instaling is ...Success"
+   fi
+      
 dnf install git -y
   
 
