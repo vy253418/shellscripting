@@ -1,0 +1,9 @@
+#!/bin/bash
+
+Number=$1
+if [ $Number -ge 100]
+then
+    echo " just tell to us its is "True""
+else 
+    echo " tell to use it is "fasle""
+fi 
