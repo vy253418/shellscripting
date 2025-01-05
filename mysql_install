@@ -4,8 +4,10 @@ user1=$(id -u)
 if [ $user1 -ne 0 ]
 then 
 echo "you must have sudo access to execute this command"
-exit 1
 fi
+
+dnf list installed mysql
+if [$? -ne 0] #not installed 
 dnf install mysql -y
 if [ $? -ne 0 ]
 then 
