@@ -6,7 +6,7 @@ then
 echo "you must have sudo access to execute this command"
 exit 1
 fi
-dnf install mysqll -y
+dnf install mysql -y
 if [ $? -ne 0 ]
 then 
    echo " mysql installing is ...Failuer"
