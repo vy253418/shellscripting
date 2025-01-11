@@ -1,6 +1,6 @@
 #!/bin/bash
-username1=venkanna
-username2=durga
+username1=$1
+username2=$2
 echo "$username1 :  Hi $username2"
 echo  "$username2  : Hello $username1"
 echo  "$username1 : How are you "
