@@ -1,8 +1,8 @@
 #!/bin/bash
 username1=venkanna
 username2=durga
-echo "$username1 :  Hi Riya"
-echo  "$username2  : Hello Veera"
+echo "$username1 :  Hi $username2"
+echo  "$username2  : Hello $username1"
 echo  "$username1 : How are you "
 echo  "$username2  : Iam good"
 echo  "$username1 : i want to tell something form long time"
