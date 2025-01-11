@@ -1,9 +1,0 @@
-#!/bin/bash
-
-Number=$1
-if [ $Number -gt 100  ] 
-then
-    echo " just tell to us number is more then 100 "
-else 
-    echo " tell to us number  number is less then 100"
-fi 
