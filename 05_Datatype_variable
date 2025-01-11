@@ -1,7 +1,0 @@
-#!/bin/bash
-Number1=$1
-Number2=$2
-sum=($Number1+$Number2)
-echo "total value is $sum for today"
-Timestap=$(date)
-echo "script executed at $Timestap"
