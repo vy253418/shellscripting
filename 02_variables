@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Veera :  Hi Riya"
+echo  "Riya  : Hello Veera"
+echo  "Veera : How are you "
+echo  "Riya  : Iam good"
+echo  "Veera : i want to tell something form long time"
+echo  "Riya  : what is that"
+echo  "veera : i love you"
+echo  "Riya : just shutup"
