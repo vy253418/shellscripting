@@ -1,7 +1,0 @@
-#!/bin/bash
-
-echo "Please enter your usernmae"
-
-read -s Username
-
-echo " user name is $Username"
