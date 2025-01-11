@@ -1,11 +1,11 @@
 #!/bin/bash
 username1=venkanna
 username2=durga
-echo "$username1 ::  Hi Riya"
-echo  "$username2  :: Hello Veera"
-echo  "$username1 :: How are you "
-echo  "$username2  :: Iam good"
-echo  "$username1 :: i want to tell something form long time"
-echo  "$username2  :: what is that"
-echo  "$username1 :: i love you"
-echo  "$username2 :: just shutup"
+echo "$username1 :  Hi Riya"
+echo  "$username2  : Hello Veera"
+echo  "$username1 : How are you "
+echo  "$username2  : Iam good"
+echo  "$username1 : i want to tell something form long time"
+echo  "$username2  : what is that"
+echo  "$username1 : i love you"
+echo  "$username2 : just shutup"
