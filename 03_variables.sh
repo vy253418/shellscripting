@@ -2,3 +2,4 @@
 
 echo "what is your username"
 read username
+echo "$read
