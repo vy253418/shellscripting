@@ -8,3 +8,4 @@ echo "the second movie is:${Movies[1]}"
 echo "the Third movie is: ${Movies[2]}"
 
 echo "we need list all movies=${Movies[@]}"
+echo " another list:$Movies"
