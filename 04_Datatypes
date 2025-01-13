@@ -2,4 +2,4 @@
 Wages=$1
 Performance=$2
 
-echo "ravi salary is $Wages+$Performance"
+echo "ravi salary is ($Wages+$Performance)"
