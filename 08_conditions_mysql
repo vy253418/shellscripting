@@ -9,4 +9,5 @@ if [ $User1 -ne 0 ]
  fi 
 
 dnf install mysqll -y
+dnf install git -y
     
