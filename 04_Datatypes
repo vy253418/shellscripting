@@ -3,3 +3,6 @@ Wages=$1
 Performance=$2
 
 echo "ravi salary is=(($Wages+$Performance))"
+
+
+((100+200))
