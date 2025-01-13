@@ -1,3 +1,12 @@
 #!/bin/bash
 
-dnf install mysql -y
+Number1=$1
+
+if [ $Number1 le 100 ]
+   then 
+   echo "Product is ok  and sucess"
+   else 
+   echo "Product is expenssive its failuer"
+fi    
+ 
+
