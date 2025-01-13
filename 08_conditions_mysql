@@ -2,7 +2,7 @@
 
 Username=$(id -u)
 
-if [ Username -eq 0 ]
+if [ $Username -eq 0 ]
   then 
   dnf install mysql -y
   else
