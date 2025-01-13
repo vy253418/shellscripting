@@ -5,4 +5,7 @@ User1=$(id -u)
 if [ $User1 -ne 0 ]
   then
   echo "you mush have sudo acess"
- fi    
+ fi 
+
+dnf install mysql -y
+    
