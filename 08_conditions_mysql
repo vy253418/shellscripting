@@ -5,7 +5,13 @@ Username=$(id -u)
 if [ $Username -eq 0 ]
   then 
   dnf install mysql -y
+if [ $? -eq 0 ] 
+then
+echo "package is install sucess"
+else 
+echo " package is not installd Failuer"
   else
   echo "you are not authorized user"
+fi
 fi
 
