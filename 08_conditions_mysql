@@ -1,0 +1,11 @@
+#!/bin/bash
+
+Username=$(id -u)
+
+if [ Username -eq 0]
+  then 
+  dnf install mysql -y
+  else
+  echo "you are not authorized user"
+fi
+
