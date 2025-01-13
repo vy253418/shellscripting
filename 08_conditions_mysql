@@ -9,7 +9,8 @@ if [ $User1 -ne 0 ]
 fi 
 
 dnf install mysqll -y
-if [$? -ne 0 ]
+
+if [ $? -ne 0 ]
 then
    echo "it means script is failuer"
    exit 1
