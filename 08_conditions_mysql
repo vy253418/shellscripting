@@ -10,8 +10,10 @@ fi
 
 dnf install mysqll -y
 if [$? -ne 0 ]
-then
- echo "it means script is failuer"
- exit 1
+  then
+   echo "it means script is failuer"
+   exit 1
+  else 
+   echo "mysql install it is success"
 fi 
 dnf install git -y
