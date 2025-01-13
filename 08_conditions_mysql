@@ -10,7 +10,7 @@ then
 echo "package is install sucess"
 else 
 echo " package is not installd Failuer"
-  else
+else
   echo "you are not authorized user"
 fi
 fi
