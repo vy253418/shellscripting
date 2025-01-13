@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# Check if the script is run as root
+User1=$(id -u)
+if [ $User1 -ne 0 ]; then
+  echo "You must have sudo access to run this script."
+  exit 1  # Exit if the user is not root
+fi
+
+# Install MySQL
+dnf install mysqll -y
+if [ $? -ne 0 ]; then
+  echo "MySQL installation failed. Exiting script."
+  exit 1  # Exit if MySQL installation fails
+else
+  echo "MySQL installation was successful."
+fi
+
+# Install Git
+dnf install git -y
+if [ $? -ne 0 ]; then
+  echo "Git installation failed. Exiting script."
+  exit 1  # Exit if Git installation fails
+else
+  echo "Git installation was successful."
+fi
