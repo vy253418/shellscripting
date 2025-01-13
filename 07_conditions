@@ -2,7 +2,7 @@
 
 Number1=$1
 
-if [ $Number1 le 100 ]
+if [ $Number1 -le 100 ]
    then 
    echo "Product is ok  and sucess"
    else 
