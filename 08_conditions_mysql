@@ -8,10 +8,10 @@ if [ $Username -eq 0 ]
 if [ $? -eq 0 ] 
 then
 echo "package is install sucess"
-else 
-echo " package is not installd Failuer"
 else
   echo "you are not authorized user"
 fi
+else 
+echo " package is not installd Failuer"
 fi
 
