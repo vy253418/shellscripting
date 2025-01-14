@@ -5,4 +5,4 @@ echo "Hi Team how are you and $1"
 }
 
 echo "I am calling to Function here $1"
-WISH
+WISH ramesh
