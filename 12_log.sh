@@ -6,7 +6,7 @@ Y="\e[33m"
 LOGS_FOLDER="/var/log/shellscript-logs"
 LOG_File=$(echo $0 |cut -d "." -f1)
 TIMESTAMP=$(date +%Y-%m-%D-%T)
-LOG_FOLDER-File="/LOGS_FOLDER/$LOG_File/$TIMESTAMP"
+LOG_FOLDER-File="$LOGS_FOLDER/$LOG_File-$TIMESTAMP.log"
 
 USERID=$(id -u)
 VALIDATE() {
