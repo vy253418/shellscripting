@@ -1,6 +1,6 @@
 #!/bin/bash
 WISH() {
-echo "Hi Team how are you $!"
+echo "Hi Team how are you $1"
 
 }
 
