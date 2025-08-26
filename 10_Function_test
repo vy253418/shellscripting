@@ -1,8 +1,0 @@
-#!/bin/bash
-WISH() {
-echo "Hi Team how are you "
-
-}
-
-echo "I am calling to Function here $1"
-WISH ramesh
