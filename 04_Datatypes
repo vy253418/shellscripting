@@ -1,8 +1,0 @@
-#!/bin/bash
-Wages=$1
-Performance=$2
-
-echo "ravi salary is=$(($Wages+$Performance))"
-Time_stamp=$(date)
-
-echo " script execution time is $Time_stamp"
