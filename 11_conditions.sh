@@ -2,7 +2,7 @@
 
 today=$(date +%A)
 
-if [ $today -ne "Sunday" ]
+if [ $today != "Sunday" ]
 then 
 echo" today is working day"
 fi
