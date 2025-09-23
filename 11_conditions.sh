@@ -2,7 +2,7 @@
 
 today=$(date +%A)
 
-if [ today -ne sunday ]
+if [ $today -ne sunday ]
 
 then 
 
