@@ -11,29 +11,40 @@ dnf list installed mysql
 
 if [ $? -ne 0 ]
 then 
- echo "mysql package is not installed yet"
+ dnf install mysql -y
+if [ $? -ne 0 ]
+ then 
+ echo " ERROR: mysql is installing facing error"
  else
- echo " mysql package is already installed"
- fi
+  echo "mysql is installed successfull"
+  fi
+ else
+  echo " mysql is already installed "
+  fi 
+ 
+#  echo "mysql package is not installed yet"
+#  else
+#  echo " mysql package is already installed"
+#  fi
 
-dnf install mysql -y 
+# dnf install mysql -y 
 
-if [ $? -ne 0 ]
-then
-  echo "ERROR: the mysql instllation is Failuer"
-  exit 1
-else  
-  echo "the previous command is success"
-fi  
+# if [ $? -ne 0 ]
+# then
+#   echo "ERROR: the mysql instllation is Failuer"
+#   exit 1
+# else  
+#   echo "the previous command is success"
+# fi  
 
-# dnf install git -y
+# # dnf install git -y
 
-if [ $? -ne 0 ]
-then  
-   echo "ERROR the previous command is Failuer"
-else 
-   echo "The git instllation  is Success"
-fi   
+# if [ $? -ne 0 ]
+# then  
+#    echo "ERROR the previous command is Failuer"
+# else 
+#    echo "The git instllation  is Success"
+# fi   
 
 #if dnf install git -y
 #then
