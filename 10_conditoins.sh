@@ -8,5 +8,9 @@ fi
 
 dnf install mysqll -y 
 
+dnf install git -y
+
+
+
 
 
