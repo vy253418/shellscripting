@@ -19,19 +19,19 @@ fi
 
 # dnf install git -y
 
-#if [ $? -ne 0 ]
-#then  
-#   echo "ERROR the previous command is Failuer"
-#else 
-#   echo "The previous command is Success"
-#fi   
+if [ $? -ne 0 ]
+then  
+   echo "ERROR the previous command is Failuer"
+else 
+   echo "The previous command is Success"
+fi   
 
-if dnf install git -y
-then
-echo "The previous command is Success"
-else
-echo "ERROR the previous command is Failure"
-fi
+#if dnf install git -y
+#then
+#echo "The previous command is Success"
+#else
+#echo "ERROR the previous command is Failure"
+#fi
 
 
 
