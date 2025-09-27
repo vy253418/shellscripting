@@ -7,6 +7,15 @@ then
    exit 1
 fi
 
+dnf list installed mysql 
+
+if [ $? -ne 0 ]
+then 
+ echo "mysql package is not installed yet"
+ else
+ echo " mysql package is already installed"
+ fi
+
 dnf install mysql -y 
 
 if [ $? -ne 0 ]
