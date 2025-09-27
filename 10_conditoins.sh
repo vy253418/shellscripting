@@ -23,7 +23,7 @@ if [ $? -ne 0 ]
 then  
    echo "ERROR the previous command is Failuer"
 else 
-   echo "The previous command is Success"
+   echo "The git instllation  is Success"
 fi   
 
 #if dnf install git -y
