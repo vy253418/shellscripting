@@ -12,12 +12,19 @@ dnf install mysqll -y
 if [ $? -ne 0 ]
 then
   echo "ERROR: the previous command is Failuer"
-  
+ exit 1 
 else  
   echo "the previous command is success"
 fi  
 
 dnf install git -y
+
+if [ $? -ne 0 ]
+then  
+   echo "ERROR the previous command is Failuer"
+else 
+   echo "The previous command is Success"
+fi   
 
 
 
