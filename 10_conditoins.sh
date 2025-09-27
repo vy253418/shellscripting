@@ -12,8 +12,7 @@ dnf install mysqll -y
 if [ $? -ne 0 ]
 then
   echo "ERROR: the previous command is Failuer"
-  exit 1
-
+    
 dnf install git -y
 
 
